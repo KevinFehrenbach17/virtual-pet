@@ -11,9 +11,9 @@ public class VirtualPetTest {
 		// arrange
 		VirtualPet underTest = new VirtualPet();
 		// act
-		underTest.Eat(300);
+		underTest.Feed(300);
 		// assert
-		Assert.assertEquals(300, underTest.food);
+		Assert.assertEquals(300, underTest.Feed);
 	}
 
 	@Test
@@ -22,9 +22,9 @@ public class VirtualPetTest {
 		// arrange
 		VirtualPet underTest = new VirtualPet();
 		// act
-		underTest.Sleep(400);
+		underTest.rest(400);
 		// assert
-		Assert.assertEquals(400, underTest.sleep);
+		Assert.assertEquals(400, underTest.rest);
 	}
 
 	@Test
@@ -33,7 +33,7 @@ public class VirtualPetTest {
 		// arrange
 		VirtualPet underTest = new VirtualPet();
 		// act
-		underTest.Play(300);
+		underTest.happy(300);
 		// assert
 		Assert.assertEquals(300, underTest.happy);
 

@@ -24,10 +24,10 @@ public class VirtualPetApp {
 				myPet.Feed();
 				System.out.println("You fed " + petName);
 			} else if (action == 2) {
-				myPet.Feed();
+				myPet.Sleep();
 				System.out.println("You rested " + petName);
 			} else if (action == 3) {
-				myPet.Feed();
+				myPet.ThrowBall();
 				System.out.println("You played with  " + petName);
 			}
 			System.out.println(myPet.getStatus());
